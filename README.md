@@ -21,7 +21,7 @@ Before proceeding, ensure that you have the following installed:
 2. Navigate to the project directory:
 
   ```bash
-  cd deploy-ERC-721-token
+     cd deploy-ERC-721-token
 
   ```
 
