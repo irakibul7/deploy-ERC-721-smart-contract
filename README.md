@@ -20,12 +20,13 @@ Before proceeding, ensure that you have the following installed:
 
 2. Navigate to the project directory:
 
-  ```bash
-  cd deploy-ERC-721-token
+    ```bash
+    cd deploy-ERC-721-token
 
-  ```
+    ```
 
 3. Install the required dependencies:
+
    ```bash
    npm install
 
