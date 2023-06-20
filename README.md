@@ -12,29 +12,27 @@ Before proceeding, ensure that you have the following installed:
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
+    
+    ```bash
    git clone https://github.com/irakibul7/deploy-ERC-721-token.git
-
-  ```
-
+   ```
+    
 2. Navigate to the project directory:
-
+    
    ```bash
    cd deploy-ERC-721-token
-
-  ```
-
+   ```
+    
 3. Install the required dependencies:
-
+    
    ```bash
    npm install
-
-  ```
+   ```
+    
 4. Create Hardhat Project
+    
    ```bash
    npx hardhat
-
    ```
 
 5. Update hardhat.config.js
