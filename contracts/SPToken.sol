@@ -11,15 +11,10 @@ contract SwopAstro is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
-    uint256 MAX_SUPPLY = 100;
 
     constructor() ERC721("SwopAstro", "SWA") {}
 
     function safeMint(address to, string memory uri) public onlyOwner {
-        require(
-            _tokenIdCounter.current() <= MAX_SUPPLY,
-            "I'm sorry we reached the cap"
-        );
         uint256 tokenId = _tokenIdCounter.current();
         _tokenIdCounter.increment();
         _safeMint(to, tokenId);

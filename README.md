@@ -12,25 +12,25 @@ Before proceeding, ensure that you have the following installed:
 ## Installation
 
 1. Clone the repository:
-    
+
     ```bash
-   git clone https://github.com/irakibul7/deploy-ERC-721-token.git
+   git clone https://github.com/irakibul7/deploy-ERC-721-smart-contract.git
    ```
-    
+
 2. Navigate to the project directory:
-    
+
    ```bash
-   cd deploy-ERC-721-token
+   cd deploy-ERC-721-smart-contract
    ```
-    
+
 3. Install the required dependencies:
-    
+
    ```bash
    npm install
    ```
-    
+
 4. Create Hardhat Project
-    
+
    ```bash
    npx hardhat
    ```
@@ -72,7 +72,7 @@ Before proceeding, ensure that you have the following installed:
 
     ```bash
 
-    npx hardhat run scripts/mint.js --network <network-name>
+    npx hardhat run scripts/mint-nft.js --network <network-name>
 
     ```
 
